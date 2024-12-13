@@ -1,1 +1,322 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><script type="module" crossorigin src="/static/js/120aa8f8.js"></script><link rel="stylesheet" href="/static/css/a14e1a22.css"><meta name="generator" content="Hexo 7.3.0"></head><body id="body-container"><noscript><strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>全功能JavaScript灯箱画廊插件lightgallery.js | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一、简介 lightgallery.js 是一个全功能、轻量级、无依赖的灯箱画廊显示库。   二、主要特性 全响应式兼容 模块化的架构和内置插件 移动设备和触摸支持 桌面设备拖拽支持 双击查看图像的实际大小 动画缩略图 社交媒体分享 YouTube，Vimeo，DailyMotion，VK和 HTML5 视频支持 20+ 硬件加速CSS3过渡 全屏支持 支持缩放 浏览器历史记录 响应式图像 HTM">
+<meta property="og:type" content="article">
+<meta property="og:title" content="全功能JavaScript灯箱画廊插件lightgallery.js">
+<meta property="og:url" content="http://example.com/2018/10/06/%E5%85%A8%E5%8A%9F%E8%83%BDJavaScript%E7%81%AF%E7%AE%B1%E7%94%BB%E5%BB%8A%E6%8F%92%E4%BB%B6lightgallery.js/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、简介 lightgallery.js 是一个全功能、轻量级、无依赖的灯箱画廊显示库。   二、主要特性 全响应式兼容 模块化的架构和内置插件 移动设备和触摸支持 桌面设备拖拽支持 双击查看图像的实际大小 动画缩略图 社交媒体分享 YouTube，Vimeo，DailyMotion，VK和 HTML5 视频支持 20+ 硬件加速CSS3过渡 全屏支持 支持缩放 浏览器历史记录 响应式图像 HTM">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://statics.sh1a.qingstor.com/2018/10/06/lg.png">
+<meta property="article:published_time" content="2018-10-06T15:30:00.000Z">
+<meta property="article:modified_time" content="2024-12-12T16:49:46.406Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="JavaScript">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://statics.sh1a.qingstor.com/2018/10/06/lg.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-全功能JavaScript灯箱画廊插件lightgallery.js" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2018/10/06/%E5%85%A8%E5%8A%9F%E8%83%BDJavaScript%E7%81%AF%E7%AE%B1%E7%94%BB%E5%BB%8A%E6%8F%92%E4%BB%B6lightgallery.js/" class="article-date">
+  <time class="dt-published" datetime="2018-10-06T15:30:00.000Z" itemprop="datePublished">2018-10-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      全功能JavaScript灯箱画廊插件lightgallery.js
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/">lightgallery.js</a> 是一个全功能、轻量级、无依赖的灯箱画廊显示库。</p>
+</blockquote>
+<p><img src="https://statics.sh1a.qingstor.com/2018/10/06/lg.png" alt="lightgallery"></p>
+<h3 id="二、主要特性"><a href="#二、主要特性" class="headerlink" title="二、主要特性"></a>二、主要特性</h3><ul>
+<li>全响应式兼容</li>
+<li>模块化的架构和内置插件</li>
+<li>移动设备和触摸支持</li>
+<li>桌面设备拖拽支持</li>
+<li>双击查看图像的实际大小</li>
+<li>动画缩略图</li>
+<li>社交媒体分享</li>
+<li>YouTube，Vimeo，DailyMotion，VK和 HTML5 视频支持</li>
+<li>20+ 硬件加速CSS3过渡</li>
+<li>全屏支持</li>
+<li>支持缩放</li>
+<li>浏览器历史记录</li>
+<li>响应式图像</li>
+<li>HTML iframe 支持</li>
+<li>支持iFrame框架</li>
+<li>单页多实例</li>
+<li>可能过CSS(SCSS)定制样式</li>
+<li>智能图像预加载与代码优化</li>
+<li>桌面键盘导航</li>
+<li>字体图标支持</li>
+<li>还有更多</li>
+</ul>
+<h3 id="三、浏览器支持"><a href="#三、浏览器支持" class="headerlink" title="三、浏览器支持"></a>三、浏览器支持</h3><p>lightgallery 支持所有主要的浏览器包括IE 9及以上。</p>
+<h3 id="四、安装下载"><a href="#四、安装下载" class="headerlink" title="四、安装下载"></a>四、安装下载</h3><h4 id="1-Bower-安装"><a href="#1-Bower-安装" class="headerlink" title="1. Bower 安装"></a>1. Bower 安装</h4><p>你可以使用 <a target="_blank" rel="noopener" href="https://bower.io/">Bower</a> 包管理工具安装<code>lightgallery</code>：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bower install lightgallery.js --save</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-npm"><a href="#2-npm" class="headerlink" title="2. npm"></a>2. npm</h4><p>你也能在 <a target="_blank" rel="noopener" href="https://www.npmjs.com/">npm</a> 上找到 <code>lightgallery</code>：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install lightgallery.js</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-Github-下载"><a href="#3-Github-下载" class="headerlink" title="3. Github 下载"></a>3. Github 下载</h4><p>你也可以直接从 GitHub 下载<a target="_blank" rel="noopener" href="https://github.com/sachinchoolur/lightgallery.js">lightgallery</a></p>
+<h3 id="五、基础示例"><a href="#五、基础示例" class="headerlink" title="五、基础示例"></a>五、基础示例</h3><h4 id="1-使用方法"><a href="#1-使用方法" class="headerlink" title="1. 使用方法"></a>1. 使用方法</h4><p>首先，在 html 头文件<code>&lt;head&gt;</code>中引入<code>lightgallery.css</code>：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/lightgallery.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后，在<code>&lt;body&gt;</code>标签结尾引入<code>lightgallery.min.js</code>，如果你想引入其他 lightgallery 的功能插件，你可以将这些插件引入到<code>lightgallery.min.js</code>之后，如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/lightgallery.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- lightgallery plugins --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/lg-thumbnail.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/lg-fullscreen.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>以下是页面标记的图片示例：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;lightgallery&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;img/img1.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;img/thumb1.jpg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;img/img2.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;img/thumb2.jpg&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    ...</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>最后，是 JavaScript 调用插件的方式：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="title function_">lightGallery</span>(<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;lightgallery&#x27;</span>));</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-完整示例"><a href="#2-完整示例" class="headerlink" title="2. 完整示例"></a>2. 完整示例</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>lightgallery.js的使用示例<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;/lightGallery/css/lightgallery.min.css&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">        <span class="selector-tag">ul</span> &#123;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">float</span>: left;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">list-style-type</span>: none;</span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">        <span class="selector-tag">ul</span> <span class="selector-tag">li</span> &#123;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">float</span>: left;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">display</span>: inline-block;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">margin</span>: <span class="number">5px</span>;</span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">        <span class="selector-class">.lgallery</span> &#123;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">width</span>: <span class="number">213px</span>;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">height</span>: <span class="number">137px</span>;</span></span><br><span class="line"><span class="language-css">            <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">        &#125;</span></span><br><span class="line"><span class="language-css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;initLoad();&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;lightGallery&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/a.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/a.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/b.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/b.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/c.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/c.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/d.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/d.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/e.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/e.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/f.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/f.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-src</span>=<span class="string">&quot;/assets/images/g.jpg&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">class</span>=<span class="string">&quot;lgallery&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/assets/images/g.jpg&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/lightgallery.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-fullscreen.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-thumbnail.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-autoplay.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-hash.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-pager.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-share.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/lightGallery/js/plugins/lg-zoom.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">initLoad</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> lg = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;lightGallery&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">lightGallery</span>(lg, &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">mode</span>: <span class="string">&#x27;lg-slide&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">cssEasing</span>: <span class="string">&#x27;ease&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">        <span class="attr">speed</span>: <span class="number">500</span></span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="六、学习和参考资源"><a href="#六、学习和参考资源" class="headerlink" title="六、学习和参考资源"></a>六、学习和参考资源</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html">API Reference</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html#events">Events</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html#methods">Methods</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html#attributes">Data Attributes</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html#dynamic">Dynamic variables</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/api.html#sass">Sass variables</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://sachinchoolur.github.io/lightgallery.js/docs/plugin-api.html">Module API</a></p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2018/10/06/%E5%85%A8%E5%8A%9F%E8%83%BDJavaScript%E7%81%AF%E7%AE%B1%E7%94%BB%E5%BB%8A%E6%8F%92%E4%BB%B6lightgallery.js/" data-id="cm4n561dn000br49kf3eq1la8" data-title="全功能JavaScript灯箱画廊插件lightgallery.js" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/10/09/Linux/%E5%B8%B8%E7%94%A8Bash%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86%E4%B9%8B%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          常用Bash命令整理之查看文件和目录
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/09/28/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%B9%8Bhexo-theme-matery%E7%9A%84%E4%BB%8B%E7%BB%8D/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo博客主题之hexo-theme-matery的介绍</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/">软件工具</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/DevOps/" rel="tag">DevOps</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitLab-CI/" rel="tag">GitLab CI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Jenkins/" rel="tag">Jenkins</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Typora/" rel="tag">Typora</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue/" rel="tag">Vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo-theme-matery/" rel="tag">hexo-theme-matery</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/DevOps/" style="font-size: 10px;">DevOps</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/GitLab-CI/" style="font-size: 10px;">GitLab CI</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/Typora/" style="font-size: 15px;">Typora</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/hexo-theme-matery/" style="font-size: 10px;">hexo-theme-matery</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/12/13/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2018/11/22/devops/GitLab%20CI%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E4%BD%BF%E7%94%A8/">GitLab CI/CD 介绍和使用</a>
+          </li>
+        
+          <li>
+            <a href="/2018/11/19/Vue%20%E6%96%87%E6%A1%A3%E9%A3%8E%E6%A0%BC%E7%9A%84%20Typora%20%E4%B8%BB%E9%A2%98/">Vue 文档风格的 Typora 主题</a>
+          </li>
+        
+          <li>
+            <a href="/2018/11/19/Markdown/Vue%20%E6%96%87%E6%A1%A3%E9%A3%8E%E6%A0%BC%E7%9A%84%20Typora%20%E4%B8%BB%E9%A2%98/">Vue 文档风格的 Typora 主题</a>
+          </li>
+        
+          <li>
+            <a href="/2018/10/13/Linux/%E5%B8%B8%E7%94%A8Bash%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86%E4%B9%8B%E5%85%B6%E4%BB%96%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">常用Bash命令整理之其他常用命令</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
